@@ -1,0 +1,3 @@
+Question: What's wrong with this scheme? How many ways can you find to attack it?
+
+The initial handshake is the weak point. An attacker can pose between the server and client and impersonate both sides. This is a MITM attack. A way around this is to have the public keys of both the client and the server be verified by an outside certificate authority (for Example, TLS certificate style). This would prevent the attacker from impersonating the sides of the exchange, as each client would see the attacker as an untrusted certificate.

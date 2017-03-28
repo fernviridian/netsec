@@ -1,0 +1,14 @@
+red
+blue
+gray
+purple
+elephant
+monkey
+lion
+tiger
+bear
+password
+hunter
+dog
+cat
+swordfish
